@@ -11,10 +11,20 @@
 	height:80px;
 	border-radius:0px !important;
 	padding:18px 35px 0px 15px;
+	font-size:18px;
 }
 
 .landing_page_navbar a, .landing_page_navbar a:hover, .landing_page_navbar a:active, .landing_page_navbar a:visited {
 	color:white;
+	font-size:18px;
+	text-decoration:none;
+	padding:10px 15px;
+}
+
+.landing_page_navbar_logo {
+	font-size:35px !important;
+	font-weight:bold; 
+	padding-top:8px;
 }
 
 .landing_page_image_cover {
@@ -29,7 +39,6 @@
 	text-align:center;
 }
 
-
 .middle_section {
 	text-align:center;
 	padding-top:30px;
@@ -41,6 +50,39 @@
 	text-align:center;
 }
 
+.middle_section_table_icons {
+	font-size:15em;
+	color:lightgray;
+	line-height:1;
+}
+
+.middle_section_table_headers {
+	font-size: 22px;
+}
+
+middle_section_table_text {
+	font-size: 18px; 
+	color:rgb(149,149,149); 
+	line-height:150%;
+}
+
+.middle_section_table_text td {
+	padding:0px 60px;
+}
+
+
+.testimonial {
+	height:200px; 
+	width:100%; 
+	background-color: rgb(76, 77, 86)
+}
+
+.testimonial_text {
+	color:silver; 
+	font-size: 18px; 
+	font-style:italic; 
+	padding-top:43px;
+}
 
 .user_image {
 	background-image: url('http://www.aspenideas.org/sites/default/files/pictures/people/Levin-David.jpg');
@@ -55,4 +97,87 @@
 	-moz-border-radius: 99em;
 	border-radius: 99em;
 	border: 1px;
+}
+
+.sign_up_bottom {
+	text-align:center;
+	font-size: 20px;
+}
+
+
+
+.about_page_image {
+	background-image: url('http://i.huffpost.com/gen/1162386/thumbs/o-LOCKERS-facebook.jpg'); 
+	background-size: 100%; 
+	height: 600px;
+	color:white !important;
+	filter: grayscale(100%);
+}
+
+.about_page_image_text_wrapper {
+	color:white;
+	text-align:left;
+	background-color: rgba(0, 0, 0, .75);
+	margin-top:55px;
+	height:70%;
+	border-radius:10px;
+	font-family:quicksand;
+}
+
+.about_page_image_text {
+	margin:30px 150px 0px 30px;
+	line-height:1.5;
+}
+
+.about_page_image_text p {
+	font-size:21px;
+	margin: 20px 0px;
+	text-rendering: optimizelegibility;
+}
+
+.team_bios_wrapper {
+	margin:0px auto !important;
+
+}
+
+.team_bios {
+	width:80%;
+	margin:0 auto; 
+	padding:20px; 
+	padding-left:28px;
+	height:1020px;
+	color:rgb(96, 87, 92);
+}
+
+.team_bios .row {
+	margin-bottom:30px;
+}
+
+.team_bios_photos {
+	height:140px;
+	width:140px !important;
+	margin-right:2px;
+	margin-left:18px;
+	margin-top:20px;
+	background-size: 100%;
+}
+
+.team_bios h3 {
+	color:rgb(96, 87, 92);
+}
+
+
+.footer {
+	text-align:center;
+}
+
+.footer a, .footer a:visited, .footer a:active {
+	color: #333;
+	padding:5px;
+	text-decoration:none;
+}
+
+.footer a:hover, {
+	color:blue;
+	text-decoration:none;
 }
