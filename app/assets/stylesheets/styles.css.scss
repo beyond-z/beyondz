@@ -1,7 +1,7 @@
 .landing_page_image {
 	background-image: url('http://hhministries.net/images/Image/user/shutterstock_81595396-boy-and-girl-scientist.jpg'); 
 	background-size: 100%; 
-	height: 600px;
+	height: 630px;
 	color:white !important;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .landing_page_image_cover {
-	height:600px;
+	height:630px;
 	background-color: rgba(0,0,0,0.3);
 	margin-top:-80px;
 }
@@ -180,4 +180,8 @@ middle_section_table_text {
 .footer a:hover, {
 	color:blue;
 	text-decoration:none;
+}
+
+#mce-success-response {
+	display:none !important;
 }
