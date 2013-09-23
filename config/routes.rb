@@ -3,6 +3,8 @@ Beyondz::Application.routes.draw do
 
   get 'jobs' => 'pages#jobs'
 
+  get 'contact' => 'pages#contact'
+
   root :to => "pages#home"
 
 
