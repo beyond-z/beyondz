@@ -77,9 +77,19 @@ middle_section_table_text {
 	background-color: rgb(76, 77, 86)
 }
 
+.testimonial_photo {
+	background-image: url('/assets/Natalie_Jefferson.jpg');
+	display: inline-block;
+	width: 130px;
+	height: 130px;
+	margin-top: 40px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 .testimonial_text {
 	color:silver; 
-	font-size: 18px; 
+	font-size: 17px; 
 	font-style:italic; 
 	padding-top:43px;
 }
