@@ -33,10 +33,41 @@
 	margin-top:-80px;
 }
 
+.under_construction {
+	position:absolute;
+	top:70px;
+	background-color:rgb(221, 221, 136);;
+	color:red;
+	text-align:center;
+	width:100%;
+	padding:5px;
+	font-weight:bold;
+}
+
 .landing_page_image_text {
-	padding-top:120px;
+	padding-top:20px;
 	color:white;
 	text-align:center;
+	width:40%;
+	position:absolute;
+	top:120px;
+	right:0px;
+}
+
+.landing_page_image_text h1 {
+	font-size:66px;
+}
+
+@media (max-width: 1260px) {
+    .landing_page_image_text h1 {
+    	font-size:50px;
+    }
+}
+
+@media (max-width: 800px) {
+    .landing_page_image_text h1 {
+    	font-size:40px;
+    }
 }
 
 .middle_section {
